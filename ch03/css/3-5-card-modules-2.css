@@ -1,0 +1,42 @@
+/* bl_card에는 레이아웃 관련된 내용일 지정하지 않음 */
+.bl_card {
+  box-shadow: 0 3px 6px rgb(0, 0, 0, .16);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.bl_3colCardUnit {
+  display: flex;
+}
+
+.bl_3colCardUnit_item {
+  width: 31.707%;
+  margin-right: 2.43902%;
+}
+
+.bl_card_imgWrapper{
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.bl_card_imgWrapper img {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.bl_card_body {
+  padding: 15px;
+}
+
+.bl_card_ttl {
+  margin-bottom: 5px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.bl_card_txt {
+  color: #777;sssss
+}
